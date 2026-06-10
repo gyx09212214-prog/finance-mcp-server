@@ -1189,7 +1189,8 @@ async def main():
             )
         )
 
-if __name__ == "__main__":
+def cli():
+    """Run the MCP server from console script entry points."""
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
@@ -1197,3 +1198,6 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"Server error: {str(e)}")
         raise
+
+if __name__ == "__main__":
+    cli()

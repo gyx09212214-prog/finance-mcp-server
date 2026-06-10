@@ -33,4 +33,4 @@ Repository = "https://github.com/akshatbindal/finance-mcp-server"
 Issues = "https://github.com/akshatbindal/finance-mcp-server/issues"
 
 [project.scripts]
-finance-mcp-server = "finance_mcp.server:main"
+finance-mcp-server = "finance_mcp.server:cli"

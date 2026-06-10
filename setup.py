@@ -47,7 +47,7 @@ setup(
     install_requires=read_requirements(),
     entry_points={
         "console_scripts": [
-            "finance-mcp-server=finance_mcp.server:main",
+            "finance-mcp-server=finance_mcp.server:cli",
         ],
     },
     keywords="mcp model-context-protocol finance stocks trading technical-analysis market-data yfinance",
