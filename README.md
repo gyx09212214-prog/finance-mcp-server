@@ -38,6 +38,43 @@ Then add to your Claude Desktop configuration:
 
 Restart Claude Desktop and start asking about stocks! 🎉
 
+### Using uvx
+
+If you use [uv](https://docs.astral.sh/uv/), you can run the published
+package without a manual virtual environment:
+
+```json
+{
+  "mcpServers": {
+    "finance": {
+      "command": "uvx",
+      "args": ["finance-mcp-server"]
+    }
+  }
+}
+```
+
+### Using Docker
+
+Build the local image:
+
+```bash
+docker build -t finance-mcp-server .
+```
+
+Then point your MCP client at the containerized stdio server:
+
+```json
+{
+  "mcpServers": {
+    "finance": {
+      "command": "docker",
+      "args": ["run", "--rm", "-i", "finance-mcp-server"]
+    }
+  }
+}
+```
+
 ### Manual Installation
 
 ```bash

@@ -26,7 +26,7 @@ from mcp.types import (
 )
 import mcp.types as types
 
-from timezone_utils import create_timezone_info
+from .timezone_utils import create_timezone_info
 
 
 # Configure logging
