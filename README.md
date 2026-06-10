@@ -2,7 +2,7 @@
 
 [![PyPI version](https://badge.fury.io/py/finance-mcp-server.svg)](https://badge.fury.io/py/finance-mcp-server)
 [![Python Support](https://img.shields.io/pypi/pyversions/finance-mcp-server.svg)](https://pypi.org/project/finance-mcp-server/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A powerful Model Context Protocol (MCP) server that brings comprehensive stock market data and technical analysis capabilities to Claude Desktop and other MCP-compatible clients.
 

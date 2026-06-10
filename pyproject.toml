@@ -8,7 +8,7 @@ dynamic = ["version"]
 description = "MCP Server for Financial Data and Technical Indicators"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = {text = "Apache-2.0"}
 authors = [
     {name = "Akshat Bindal", email = "akshatbindal01@gmail.com"},
 ]
@@ -16,7 +16,7 @@ keywords = ["mcp", "finance", "stocks", "technical-analysis"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
     "Topic :: Office/Business :: Financial",
 ]
